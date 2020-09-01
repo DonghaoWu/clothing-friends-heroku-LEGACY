@@ -38,7 +38,7 @@ class App extends React.Component {
         catch (error) {
           setCurrentUser(null);
           setDisplayName('');
-          console.log('error creating user', error.message);
+          console.log('error:', error.message);
         }
       }
       else {
